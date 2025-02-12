@@ -31,6 +31,182 @@ body {
     }
 }
 
+
+.finalValentines {
+    background-color: #fad8fd;
+    /* background-color: rgb(148, 177, 255); */
+    
+    color: rgb(226, 1, 1);
+    .btn {
+        background-color: #f4bbfa;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        font-style: italic;
+        margin: 4px 2px;
+        cursor: pointer;
+        border: none;
+        border-radius: 12px;
+        transition: background-color 0.3s ease;
+}
+}
+
+.valentines1 {
+    background-color: #fad8fd;
+    /* background-color: rgb(148, 177, 255); */
+    
+    color: rgb(226, 1, 1);
+    .btn {
+        background-color: #f4bbfa;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        font-style: italic;
+        margin: 4px 2px;
+        cursor: pointer;
+        border: none;
+        border-radius: 12px;
+        transition: background-color 0.3s ease;
+}
+}
+.valentines1 {
+    background-color: #fad8fd;
+    /* background-color: rgb(148, 177, 255); */
+    
+    color: rgb(226, 1, 1);
+    .btn {
+        background-color: #f4bbfa;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        font-style: italic;
+        margin: 4px 2px;
+        cursor: pointer;
+        border: none;
+        border-radius: 12px;
+        transition: background-color 0.3s ease;
+}
+}
+.valentines2 {
+    background-color: #90dfff;
+    /* background-color: rgb(148, 177, 255); */
+    
+    color: rgb(255, 255, 255);
+    .btn {
+        background-color: rgba(0, 162, 255, 0.548);
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        font-style: italic;
+        margin: 4px 2px;
+        cursor: pointer;
+        border: none;
+        border-radius: 12px;
+        transition: background-color 0.3s ease;
+}
+}
+.valentines3 {
+    background-color: #cf1212;
+    /* background-color: rgb(148, 177, 255); */
+    
+    color: rgb(251, 255, 0);
+    .btn {
+        background-color: rgba(0, 162, 255, 0.548);
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        font-style: italic;
+        margin: 4px 2px;
+        cursor: pointer;
+        border: none;
+        border-radius: 12px;
+        transition: background-color 0.3s ease;
+}
+}
+.valentines4 {
+    background-color: #ffd8f0;
+    /* background-color: rgb(148, 177, 255); */
+    
+    color: #a5fcff;
+    .btn {
+        background-color: #ff80ce;
+        color: #a5fcff;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        font-style: italic;
+        margin: 4px 2px;
+        cursor: pointer;
+        border: none;
+        border-radius: 12px;
+        transition: background-color 0.3s ease;
+}
+}
+.valentines5 {
+    background-color: #53c0ff;
+    /* background-color: rgb(148, 177, 255); */
+    
+    color: #ffffff;
+    .btn {
+        background-color: #1a6a99;
+        color: #ffffff;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        font-style: italic;
+        margin: 4px 2px;
+        cursor: pointer;
+        border: none;
+        border-radius: 12px;
+        transition: background-color 0.3s ease;
+}
+}
+.valentines6 {
+    /* background-color: #fffcd4; */
+    /* background-color: rgb(148, 177, 255); */
+    
+    color: rgb(139, 246, 253);
+    /* body { */
+        background-image: url("PXL_20240407_183347704.jpg");
+        background-size:cover;
+        background-color: #cccccc;
+       /* } */
+    .btn {
+        background-color: rgb(139, 246, 253);
+        color: #fffcd4;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        font-style: italic;
+        margin: 4px 2px;
+        cursor: pointer;
+        border: none;
+        border-radius: 12px;
+        transition: background-color 0.3s ease;
+}
+}
+
 .noTwo {
     /* background-color: #fdffb6; */
     background-color:#9fd2e2;
@@ -112,6 +288,18 @@ body {
     margin: auto;
 
 }
+.p {
+    text-align: center;
+    /* color: rgb(229, 233, 0); */
+    font-size: 45px;
+    font-style: italic;
+    border: #c6c1ff;
+    /* border-style: inset; */
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+
+}
 
 div.question {
     margin-top: 10%;
@@ -123,27 +311,33 @@ div.question {
     margin-top: 10000px;
     /* margin-left: 25%; */
 }
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+}
 
-.button {
+.button-group {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
-    /* margin-left: 0px; */
+    gap: 20px;
 }
 
-
-#yesButton {
-    position: absolute;
-    margin-right: 120px;
+#yesButton, #noButton {
+    position: relative;
 }
 
 #noButton {
-    position: absolute;
-    margin-left: 120px;
-    transition: 3s;
+    transition: none; /* Removed default transition */
 }
+
+#valentinesButton {
+    margin-top: 20px;
+}
+
 
 #tryAgain {
     position:relative;

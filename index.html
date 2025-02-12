@@ -1,21 +1,51 @@
 <!DOCTYPE html>
+
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <title>Will you go out with me?</title>
         <link rel="stylesheet" type="text/css" href="G.css">
         <script src="G.js"></script>
+        <script>
+            var homePageCSS = [
+                ["pageOne", "23d8c605-5bcb-4f7c-8b33-b18910b0ca7e.gif"],
+                ["pageTwo", "0831ca26a095c998bceb24e640809014.gif"],
+                ["pageThree", "0edb6b6d1189de51fe91713a32620ce4.gif"]
+            ];
+    
+            // Function to randomly apply a CSS class and image
+            function applyRandomStyle() {
+                var randomIndex = Math.floor(Math.random() * homePageCSS.length);
+                var selectedStyle = homePageCSS[randomIndex];
+    
+                // Apply the class to <body>
+                document.body.className = selectedStyle[0];
+    
+                // Update the image source
+                var imgElement = document.getElementById("questionImage");
+                if (imgElement) {
+                    imgElement.src = selectedStyle[1];
+                }
+            }
+    
+            // Run when the page loads
+            window.onload = applyRandomStyle;
+        </script>
     </head>
-    <body class = "pageOne">
+    <body>
         <div class="question" style="text-align: center;">
             <h1 class="header">will you go out with me?</h1>
-            <img class = "question" src="23d8c605-5bcb-4f7c-8b33-b18910b0ca7e.gif" width="600"></img>
+            <img id = "questionImage" class = "question" width="600"></img>
         </div>
 
-        <div class = "button">
-            <button id="yesButton"class ="btn" onclick=nextPage()>Yes</button>
-            <button id="noButton" class="btn" onclick=noPage() onmouseover=moveButton()>No</button>
+        <div class="button-container">
+            <div class="button-group">
+                <button id="yesButton" class="btn" onclick="yesPage()">Yes</button>
+                <button id="noButton" class="btn" onclick="noPage()" onmouseover="moveButton()">No</button>
+            </div>
+            <button id="valentinesButton" class="btn" onclick="valentinesPage()">Valentines surprise?</button>
         </div>
+        
     </body>
 </html>
 
